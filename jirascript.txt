@@ -10,9 +10,9 @@ import io.restassured.path.json.JsonPath;
 
 public class jira {
 	public static void main(String[] args) throws JSONException {
-		String username = "YashaswiniS";
-		String password = "jira1@345";
-		String url = "http://localhost:8090/rest/api/2/issue/createmeta";
+		String username = "Username";
+		String password = "password";
+		String url = "url";
 
 		String[] command = {"curl", "-H", "Accept:application/json", "-u", username+":"+password , url};
 		 ProcessBuilder process = new ProcessBuilder(command); 
